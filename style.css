@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Section 1 */
+.hero-area {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin-left: 3%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 5px;
+    border-left: 4px solid #FF9292;
+
+}
+
+.focus {
+    font-size: 30px;
+    color: #FF9292;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: justify;
+}
+
+/* Profile Image */
+.profile {
+    width: 80%;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 14px;
+    color: honeydew;
+    padding: 10px 15px;
+    margin: 20px 0;
+    background-color: #FF9292;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background: #E63E6D;
+    color: black;
+}
+
+/* Section 2 */
+.dream {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#text-2 {
+    text-align: left;
+}
+
+.goal {
+
+    display: flex;
+    margin: 15px 20px;
+    padding: 20px 20px;
+
+
+}
+
+.pathway {
+    margin: 15px 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px grey;
+    text-align: justify;
+}
+
+#card-1 {
+    background-color: #FFEDED;
+}
+
+#card-2 {
+    background-color: #D6E5FA;
+}
+
+#card-3 {
+    background-color: #AEE1E1;
+}
+
+.avater {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+
+}
+
+.sec-3 {
+    margin-right: 5%;
+}
+
+h3 {
+    text-transform: uppercase;
+
+}
+
+/* section 3 */
+#para {
+    width: 90%;
+    margin-left: 0;
+    padding-right: 5px;
+}
+
+
+
+/* Skills */
+.skillbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: 10px 10px 50px grey;
+    margin: 10px 30px;
+    padding: 15px;
+    border-radius: 15px;
+    
+   
+}
+
+.skills {
+    text-align: right;
+    padding: 5px 0;
+    color: white;
+}
+.skill-name{
+    width: 50%;
+    padding: 0 10px;
+    margin-left: 30%;
+    border-bottom: 2px solid #E63E6D;
+  
+}
+#skillbar-name {
+    width: 80%;
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 15px;
+    margin-right: 3%;
+}
+
+#skill-text{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.html {
+    width: 90%;
+    background-color: #E63E6D;
+}
+
+.css {
+    width: 80%;
+    background-color: #A12568;
+}
+
+.js {
+    width: 75%;
+    background-color: #f44336;
+}
+
+.react {
+    width: 70%;
+    background-color: #E63E6D;
+}
+
+/* Footer */
+footer {
+    margin: 15px 0px;
+    padding: 10px 15px;
+    background-color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+}
+
+.foot {
+    color: sandybrown;
+}
+
+.foot-name {
+    font-size: 10px;
+}
