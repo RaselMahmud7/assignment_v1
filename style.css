@@ -33,7 +33,12 @@ h1 {
 
 }
 
+#motive {
+    text-transform: capitalize;
+}
+
 .focus {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     color: #FF9292;
     text-transform: uppercase;
@@ -43,6 +48,10 @@ p {
     margin: 15px 0;
     padding: 15px 0;
     text-align: justify;
+}
+#info{
+    font-size: 12px;
+    text-transform:capitalize;
 }
 
 /* Profile Image */
@@ -56,7 +65,7 @@ p {
     color: honeydew;
     padding: 10px 15px;
     margin: 20px 0;
-    background-color: #FF9292;
+    background-color: #f35959;
     border-radius: 10px;
 
 }
@@ -67,10 +76,6 @@ p {
 }
 
 /* Section 2 */
-.dream {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .text {
     font-size: 30px;
     text-align: center;
@@ -92,10 +97,11 @@ p {
 }
 
 .pathway {
+    font-family: 'Josefin Sans', sans-serif;
     margin: 15px 20px;
     padding: 10px 30px;
     border-radius: 10px;
-    box-shadow: 10px 10px 50px grey;
+    box-shadow: 5px 10px 50px rgb(199, 199, 196) ;
     text-align: justify;
 }
 
@@ -112,9 +118,13 @@ p {
 }
 
 .avater {
-    height: 200px;
+    height:200px;
     width: 200px;
-    padding: 20px;
+    padding:20px;
+    background-image: url(images/shapes/shape-5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px 5px;
 
 }
 
@@ -143,12 +153,12 @@ h3 {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    box-shadow: 10px 10px 50px grey;
+    box-shadow: 5px 10px 50px rgb(199, 199, 196) ;
     margin: 10px 30px;
     padding: 15px;
     border-radius: 15px;
-    
-   
+
+
 }
 
 .skills {
@@ -156,24 +166,26 @@ h3 {
     padding: 5px 0;
     color: white;
 }
-.skill-name{
+
+.skill-name {
     width: 50%;
     padding: 0 10px;
     margin-left: 30%;
     border-bottom: 2px solid #E63E6D;
-  
+
 }
+
 #skillbar-name {
     width: 80%;
-    box-shadow: 10px 10px 50px grey;
     border-radius: 15px;
     margin-right: 3%;
 }
 
-#skill-text{
+#skill-text {
     font-family: 'Josefin Sans', sans-serif;
-    
+
 }
+
 .html {
     width: 90%;
     background-color: #E63E6D;
@@ -200,7 +212,7 @@ footer {
     padding: 10px 15px;
     background-color: #000;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #fff;
     font-family: 'Josefin Sans';
     font-size: 18px;
